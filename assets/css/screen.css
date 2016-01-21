@@ -117,8 +117,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 }
 
 @font-face {
-    font-family: "Myanmar Census";
-    src: url("../fonts/myanmar-census.ttf");
+    font-family: "Parabaik";
+    src: url("../fonts/Tharlon.ttf");         
 }
 
 /* Apply these base styles to all icons */
@@ -190,7 +190,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Merriweather", "Myanmar Census", serif;
+    font-family: "Merriweather", "Tharlon", serif;
     letter-spacing: 0.01rem;
     font-size: 1.6rem;
     line-height: 2em;
@@ -217,7 +217,7 @@ h4, h5, h6 {
     color: #2E2E2E;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: "Open Sans", "Myanmar Census", sans-serif;
+    font-family: "Open Sans", "Tharlon", sans-serif;
     text-rendering: geometricPrecision;
 }
 
