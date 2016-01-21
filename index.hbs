@@ -13,13 +13,20 @@
         <div class="main-header-content inner">
             <h1 class="page-title">{{@blog.title}}</h1>
             <h2 class="page-description">{{@blog.description}}</h2>
+            <ul class="page-social">
+                <li><a href="https://www.facebook.com/khayusaki"><i class="fa fa-facebook-square"></i></a></li>
+                <li><a href="https://twitter.com/khayusaki"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/khayusaki"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="http://steamcommunity.com/id/khayusaki"><i class="fa fa-steam-square"></i></a></li>
+                <li><a href="https://github.com/khay"><i class="fa fa-github"></i></a></li>
+            </ul>
         </div>
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
 {{! The main content area on the homepage }}
-<main id="content" class="content" role="main">
+<main id="content" class="content" role="main">    
 
     {{! The tag below includes the post loop - partials/loop.hbs }}
     {{> "loop"}}
